@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organizer Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1 style="text-align:center;">
+Organizer Dashboard
+</h1>
+
+<div class="organizer-container">
+
+    <div class="dashboard-box">
+
+        <h2>Create Event</h2>
+
+        <input
+        type="text"
+        id="eventName"
+        placeholder="Event Name">
+
+        <input
+        type="date"
+        id="eventDate">
+
+        <input
+        type="text"
+        id="eventLocation"
+        placeholder="Location">
+
+        <button onclick="createEvent()">
+            Create Event
+        </button>
+
+    </div>
+
+    <div class="dashboard-box">
+
+        <h2>Analytics</h2>
+
+        <p>Total Events : 10</p>
+
+        <p>Total Bookings : 50</p>
+
+        <p>Revenue : ₹25,000</p>
+
+    </div>
+
+</div>
+
+<div id="toast">
+Event Created Successfully
+</div>
+
+<script src="css/js/organizer.js"></script>
+
+</body>
+</html>

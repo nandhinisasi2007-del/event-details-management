@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventify</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            Eventify
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Events">
+        </div>
+
+        <div class="nav-links">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="Music">Music</option>
+                <option value="Sports">Sports</option>
+                <option value="Technology">Technology</option>
+                <option value="Business">Business</option>
+            </select>
+
+            <button id="darkModeBtn">🌙</button>
+        </div>
+    </header>
+
+    <section class="hero">
+
+        <h1>Discover Amazing Events</h1>
+
+        <p>
+            Book tickets, attend events and create your own events.
+        </p>
+
+    <button onclick="window.location.href='event-details.html'">
+        Explore Events
+    </button>
+
+     <button onclick="window.location.href='organizer.html'">
+        Organizer Panel
+    </button>
+
+    </section>
+
+    
+    <section class="categories">
+
+        <h2>Categories</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                🎵 Music
+            </div>
+
+            <div class="category-card">
+                ⚽ Sports
+            </div>
+
+            <div class="category-card">
+                💻 Technology
+            </div>
+
+            <div class="category-card">
+                💼 Business
+            </div>
+
+        </div>
+
+    </section>
+
+   
+    <section class="events">
+
+        <h2>Upcoming Events</h2>
+
+       <div class="event-container" id="eventContainer"></div>
+
+        </div>
+
+    </section>
+
+    <script src="css/js/app.js"></script>
+
+</body>
+</html>

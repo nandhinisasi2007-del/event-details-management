@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="details-container">
+
+        <img src="c:\Users\nandh\Downloads\Chennai music festival.png"
+             alt="Event Image">
+
+        <h1>Chennai Music Festival</h1>
+
+        <p>
+            Enjoy a wonderful music night with top singers and bands.
+        </p>
+
+        <h3>Date: 25 July 2026</h3>
+
+        <h3>Location: Chennai</h3>
+
+        <h3>Price: ₹2500</h3>
+
+        <button onclick="goToBooking()">
+            Book Tickets
+        </button>
+
+    </section>
+
+    <section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\IPL Fan Meet.png" 
+    alt="IPL Fan Meet">
+
+    <h1>IPL Fan Meet 2026</h1>
+
+    <p>Meet your favorite IPL players and enjoy the event live.</p>
+
+    <h3>Date:  29 August 2026</h3>
+    <h3>Location: Chennai Stadium</h3>
+    <h3>Price: ₹1500</h3>
+
+    <button onclick="goToBooking('ipl')">Book Tickets</button>
+
+    </section>
+
+    <section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\Tech Conference.png"
+     alt="Tech Conference">
+
+    <h1>Tech Conference 2026</h1>
+
+    <p>Learn AI, Web Development and modern technologies.</p>
+
+    <h3>Date: 3 September 2026</h3>
+    <h3>Location: Chennai Trade Centre</h3>
+    <h3>Price: ₹900</h3>
+
+    <button onclick="goToBooking('tech')">Book Tickets</button>
+
+    </section>
+
+    <section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\Startup.png"
+     alt="Startup Summit">
+
+    <h1>Startup Summit 2026</h1>
+
+    <p>Meet investors and grow your startup ideas.</p>
+
+    <h3>Date: 11 September 2026</h3>
+    <h3>Location: Bangalore International Exhibition Centre (BIEC)</h3>
+    <h3>Price: ₹2000</h3>
+
+    <button onclick="goToBooking('startup')">Book Tickets</button>
+
+    </section>
+
+    <section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\food carnival.jpg"
+         alt="Food Carnival">
+
+    <h1>Food Carnival 2026</h1>
+
+    <p>Experience delicious cuisines from across India, live cooking shows, food stalls, and exciting competitions.</p>
+
+    <h3>Date: 18 September 2026</h3>
+    <h3>Location: Coimbatore</h3>
+    <h3>Price: ₹500</h3>
+
+    <button onclick="goToBooking('food')">Book Tickets</button>
+
+</section>
+
+<section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\comedy night.jpg"
+         alt="Comedy Night">
+
+    <h1>Comedy Night Live</h1>
+
+    <p>Enjoy a fun-filled evening with famous stand-up comedians and entertaining performances.</p>
+
+    <h3>Date: 25 September 2026</h3>
+    <h3>Location: Bangalore</h3>
+    <h3>Price: ₹1600</h3>
+
+    <button onclick="goToBooking('comedy')">Book Tickets</button>
+
+</section>
+
+<section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\classical dance.jpg"
+         alt="Classical Dance Festival">
+
+    <h1>Classical Dance Festival</h1>
+
+    <p>Enjoy spectacular Bharatanatyam, Kathak, Kuchipudi, and Odissi performances by renowned artists.</p>
+
+    <h3>Date: 30 September 2026</h3>
+    <h3>Location: Madurai</h3>
+    <h3>Price: ₹2000</h3>
+
+    <button onclick="goToBooking('dance')">Book Tickets</button>
+
+</section>
+
+<section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\ai.jpg"
+         alt="AI Workshop">
+
+    <h1>AI & Machine Learning Workshop</h1>
+
+    <p>Learn Artificial Intelligence, Machine Learning, and Generative AI through hands-on sessions led by industry experts.</p>
+
+    <h3>Date: 1 October 2026</h3>
+    <h3>Location: Bangalore</h3>
+    <h3>Price: ₹1500</h3>
+
+    <button onclick="goToBooking('ai')">Book Tickets</button>
+
+</section>
+
+<section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\photo.png"
+         alt="Photography Expo">
+
+    <h1>Photography Expo</h1>
+
+    <p>Explore breathtaking photography exhibitions, camera showcases, and live photography workshops.</p>
+
+    <h3>Date: 22 October 2026</h3>
+    <h3>Location: Kochi</h3>
+    <h3>Price: ₹550</h3>
+
+    <button onclick="goToBooking('photography')">Book Tickets</button>
+
+</section>
+
+<section class="details-container">
+
+    <img src="c:\Users\nandh\Downloads\fashion.avif"
+         alt="Fashion Show">
+
+    <h1>Fashion Show 2026</h1>
+
+    <p>Witness stunning collections from top fashion designers and enjoy live runway performances.</p>
+
+    <h3>Date: 28 October 2026</h3>
+    <h3>Location: Delhi</h3>
+    <h3>Price: ₹1000</h3>
+
+    <button onclick="goToBooking('fashion')">Book Tickets</button>
+
+</section>
+
+
+    <script>
+        function goToBooking(event){
+            window.location.href="booking.html?event=" +event;
+        }
+    </script>
+
+</body>
+</html>

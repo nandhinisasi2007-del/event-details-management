@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 style="text-align:center;">
+        My Dashboard
+    </h1>
+
+    <div class="dashboard-container">
+
+        <div class="dashboard-box">
+            <h2>My Bookings</h2>
+            <div id="bookingList"></div>
+        </div>
+
+        <div class="dashboard-box">
+            <h2>Wishlist</h2>
+            <ul>
+                <li>Music Festival ❤️</li>
+                <li>Tech Conference ❤️</li>
+                <li>Food Carnival  ❤️</li>
+                <li>Photography Expo  ❤️</li>
+            </ul>
+        </div>
+
+        <div class="dashboard-box">
+            <h2>Reviews</h2>
+
+            <textarea
+            id="reviewText"
+            placeholder="Write Review">
+            </textarea>
+
+            <button onclick="addReview()">
+                Submit Review
+            </button>
+
+            <div id="reviewList"></div>
+
+        </div>
+
+    </div>
+
+<script src="css/js/dashboard.js"></script>
+
+</body>
+</html>
